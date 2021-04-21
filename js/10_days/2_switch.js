@@ -17,6 +17,6 @@ function getLetter(s) {
   return letter;
 }
 
-console.log(getLetter("asd"));
-console.log(getLetter("ball"));
-console.log(getLetter("hello"));
+console.log(getLetter("asd")); // A
+console.log(getLetter("ball")); // B
+console.log(getLetter("hello")); // C

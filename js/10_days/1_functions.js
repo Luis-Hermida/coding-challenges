@@ -10,6 +10,6 @@ function factorial(n) {
   return factorialResult;
 }
 
-console.log(factorial(4));
-console.log(factorial(5));
-console.log(factorial(8));
+console.log(factorial(4)); // 24
+console.log(factorial(5)); // 120
+console.log(factorial(8)); // 40320

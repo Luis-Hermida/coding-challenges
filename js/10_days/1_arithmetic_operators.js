@@ -6,5 +6,5 @@ function getArea(length, width) {
   return length * width;
 }
 
-console.log(getPerimeter(2, 4));
-console.log(getArea(2, 4));
+console.log(getPerimeter(2, 4)); // 12
+console.log(getArea(2, 4)); // 8

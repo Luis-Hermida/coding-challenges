@@ -14,6 +14,6 @@ function getGrade(score) {
   }
 }
 
-console.log(getGrade(28));
-console.log(getGrade(15));
-console.log(getGrade(8));
+console.log(getGrade(28)); // A
+console.log(getGrade(15)); // D
+console.log(getGrade(8)); // E
