@@ -8,8 +8,7 @@ function isPositive(a) {
   }
 }
 
-const runs = [5, 0, -5];
-runs.forEach((n) => {
+[5, 0, -5].forEach((n) => {
   try {
     console.log(isPositive(n));
   } catch (e) {
