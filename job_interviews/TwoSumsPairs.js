@@ -15,7 +15,7 @@ function playlist(songs) {
   });
 
   console.log(songPairs);
-  console.log("xd", numberOfPairs);
+  console.log(numberOfPairs);
 }
 
 // playlist([10, 50, 20, 40]); // 2
@@ -42,6 +42,8 @@ function playlist(songs) {
     );
   });
 
+  console.log(songPairs);
+  console.log(numberOfPairs);
   return numberOfPairs;
 }
 
