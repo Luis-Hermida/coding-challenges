@@ -3,27 +3,23 @@
 // Memory - 60.8 beats 5.9%
 
 /*
-    We use the current index and the length of the array to calculate
-    the remaining spaces and see how many odd sub-arrays are.
+  We use the current index and the length of the array to calculate
+  the remaining spaces and see how many odd sub-arrays are.
 
-    Then we slice those sub-arrays into a sum array where at the end
-    we add up those values to get the result.
+  Then we slice those sub-arrays into a sum array where at the end
+  we add up those values to get the result.
 
-    Time Complexity:
-    - O(1) - For the main loop.
-    - O(n^n) - For slicing the sub-arrays which will repeat for each odd index.
-    - O(n) - For the reduce of the sumArray.
+  Time Complexity:
+  - O(1) - For the main loop.
+  - O(n^n) - For slicing the sub-arrays which will repeat for each odd index.
+  - O(n) - For the reduce of the sumArray.
 
-    Space Complexity:
-    - totalSum 
-    - sumArray
-    - remainingIndexes
+  Space Complexity:
+  - totalSum 
+  - sumArray
+  - remainingIndexes
 */
 
-/**
- * @param {number[]} arr
- * @return {number}
- */
 var sumOddLengthSubarrays = function (arr: number[]): number {
   let arrayLength: number = arr.length;
   let totalSum: number = 0;
