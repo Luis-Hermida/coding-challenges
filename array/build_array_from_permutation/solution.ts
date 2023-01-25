@@ -8,12 +8,12 @@
   Space Complexity: O(n)
 */
 
-var buildArray = function(nums) {
-    const ans: number[] = [];
+let buildArray = function (nums) {
+  const ans: number[] = [];
 
-    nums.forEach((value, index) => {
-        ans.push(nums[value])
-    })
+  nums.forEach((value, index) => {
+    ans.push(nums[value]);
+  });
 
-    return ans
+  return ans;
 };
