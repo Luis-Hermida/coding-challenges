@@ -4,9 +4,9 @@
 
 /*
 
-  Time Complexity: 【・_・?】
+  Time Complexity: O(log n)
 
-  Space Complexity: 【・_・?】
+  Space Complexity: O(log n)
 */
 
 function binarySearch(lists, sorted, low, high, target) {
