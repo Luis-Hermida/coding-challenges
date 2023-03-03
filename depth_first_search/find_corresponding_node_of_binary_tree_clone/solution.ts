@@ -4,9 +4,9 @@
 
 /*
 
-  Time Complexity: O(n)
+  Time Complexity: O(V + E) - Where V stands for vertices and E stands for edges
 
-  Space Complexity: O(n)
+  Space Complexity: 
 */
 var getTargetCopy = function (original, cloned, target) {
   if (original == null) {
