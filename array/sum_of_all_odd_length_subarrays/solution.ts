@@ -43,6 +43,6 @@ var sumOddLengthSubarrays = function (arr: number[]): number {
     (accumulator, currentValue) => accumulator + currentValue,
     0
   );
-  
+
   return totalSum;
 };
