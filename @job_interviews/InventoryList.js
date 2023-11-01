@@ -1,3 +1,5 @@
+export {};
+
 function inventoryList() {
   let items = [];
 

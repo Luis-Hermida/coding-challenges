@@ -1,3 +1,4 @@
+export {};
 // Stats
 // Runtime - 64 ms beats 57.51%
 // Memory - 42.2 mb beats 14.18%

@@ -1,3 +1,5 @@
+export {};
+
 function matchingBraces(bracesArray) {
   const isBraceIndexBalanced = [];
 

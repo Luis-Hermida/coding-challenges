@@ -1,3 +1,4 @@
+export {};
 // Stats
 // Runtime - 78 ms beats 30.71%
 // Memory - 44.1 mb beats 12.66%
@@ -30,3 +31,5 @@ var targetIndices = function (nums, target) {
   binarySearch(result, nums, 0, nums.length - 1, target);
   return result.sort((a, b) => a - b);
 };
+
+export {};

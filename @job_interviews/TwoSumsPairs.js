@@ -1,3 +1,4 @@
+export {};
 // Sums equals 60
 function playlist(songs) {
   const songPairs = new Map();

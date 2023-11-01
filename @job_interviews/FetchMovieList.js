@@ -1,3 +1,4 @@
+export {};
 const request = require("request");
 
 async function getMovieList(year) {

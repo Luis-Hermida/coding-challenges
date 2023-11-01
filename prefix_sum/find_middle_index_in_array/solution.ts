@@ -1,3 +1,5 @@
+export {};
+
 function findMiddleIndex(nums: number[]): number {
   let totalSum = 0;
   let leftSum = 0;

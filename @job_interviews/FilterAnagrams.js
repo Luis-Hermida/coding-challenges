@@ -1,4 +1,5 @@
-// Find all anagramsaer
+export {};
+// Find all anagrams
 
 // Example
 // nap, pan -> anp
